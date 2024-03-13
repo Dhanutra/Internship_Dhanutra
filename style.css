@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    color: #fff;
+    background: #252333;
+    font-family: Verdana;
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+}
+
+a{
+    color: #ffffff;
+}
+
+img {
+    position: absolute;
+}
+
+.teaser {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size:  50px;
+}
+
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #252333;
+}
+  
+
+.ManuBar{
+    width: 100%;
+    background-color: #252333;
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.MenuCol1{
+    margin: 2%;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.MenuCol1 :hover{
+    transition: 0.5s;
+    color: #006aff;
+    text-shadow: 0 0 15px #d7e7ff;
+}
+
+
+
+
+
+.column1{
+    position: absolute;
+    display: block;
+    width: 55%;
+    float: left;
+    text-align: right;
+    top: 52%;
+    transform: translate(0, -50%);
+    color: #ffffff;
+    text-shadow: 0 0 55px #006aff;
+}
+
+
+.TopicColumn{
+    width: 100%;
+    text-align: center;
+    float: left;
+    color: #000000; 
+    text-shadow: 0 0 15px #569cff;
+}
+
+.ProfileCol{
+    display: block;
+    overflow: auto; 
+    width: 100%;
+    float: left;
+}
+
+.ProfileColL{
+    width: 45%;
+    float: left;
+    align-items: center;
+}
+
+
+.ProfileColR{
+    overflow: auto; 
+    width: 55%;
+    padding: 2%;
+    float: right;
+}
+
+.ProfileColR1{
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.ProfileColR2{
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    text-align: left;
+    color: #000000;
+}
+
+
+
+.TopicEdu{
+    width: 100%;
+    margin-bottom: 7%;
+    text-align: center;
+    float: left;
+    color: #000000; 
+    text-shadow: 0 0 15px #569cff;
+}
+
+.Educolumn1 {
+    margin: 8.5%;
+    text-align: left;
+    float: left;
+}
+
+.Educolumn2 {
+    text-align: right;
+    float: right;
+}
+
+.Educolumn1, .Educolumn2 {
+    display: block;
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ffffff; 
+    text-shadow: 0 0 5px #217aff;
+    background-color: #000000ad;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 25px;
+}
+
+
+
+
+
+.ImgPort{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.footer{
+    position: relative;
+    margin: 50px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.footcolumn1{
+    height: 150px; 
+    width: 269px; 
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    z-index: -1;
+}
+
+.footcolumn2{
+    display: block;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.footcolumn3{
+    display: block;
+    height: 40%;
+    float: left;
+    text-align: left;
+}
+.footcolumn4{
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 2%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+}
